@@ -8,3 +8,36 @@ div {
 	height:5px; 
 	background-color:#046390
 }
+
+#title {
+	font-size:3em;
+	display:inline;
+	margin-right: 2%
+}
+
+#button {
+	display: inline;
+	margin:5px;
+}
+
+#button-current {
+	display: inline;
+	margin:5px;
+	color:#046390
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+a:visited {
+	text-decoration:none;
+	color:black;
+}
+a:hover {text-decoration: underline
+}
+
+/* * {
+	border:1px dashed black;
+}
+*/
