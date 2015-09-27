@@ -4,11 +4,11 @@
 		<script src="https://use.typekit.net/nyo7tgw.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-		<title>My first web page</title>
+		<title>Mark Graham</title>
 	 	<h> 
 	</head>
 	<body style="background-color:white">
-		<h1 style = "font-family:adelle" > This is Mark's website. </h1>
+		<h1 style = "font-family:adelle" > Mark Graham </h1>
 		<hr>
 		<h2 style = "font-family:adelle"> This page contains details about me </h2>
 	</body>
