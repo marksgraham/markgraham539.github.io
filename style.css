@@ -1,8 +1,7 @@
 body {
 	background-color: white;
-	font-family: adelle
+	font-family: adelle;
 }
-
 div {
 	width:100%;
 	height:5px; 
@@ -34,7 +33,8 @@ a:visited {
 	text-decoration:none;
 	color:black;
 }
-a:hover {text-decoration: underline
+a:hover {
+	text-decoration: underline
 }
 
 /* * {
