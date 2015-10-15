@@ -1,8 +1,15 @@
 body {
+	/*By default, the body has a margin. You might find this annoying later on (e.g. if you change background colour of 
+		body. Just a heads up!*/
 	background-color: white;
-	font-family: adelle;
+	font-family: adelle,serif;/*Added serif as fallback font-family in case adelle doesn't load.*/
+	/*Set the font size of body to 100% then use ems for everything else*/
+	font-size: 100%;
+	height: 100%;
+	width: 100%;
 }
-div {
+
+#horizontalLine{
 	width:100%;
 	height:5px; 
 	background-color:#046390
@@ -35,6 +42,69 @@ a:visited {
 }
 a:hover {
 	text-decoration: underline
+}
+
+#magicText{
+	height: 200px;
+	/*background-color: yellow;*/
+	width: 1000px;
+	display: inline-block;
+	position: relative;
+	/*border: 1px solid black;*/
+	margin-top: 10%;
+	margin-left: 200px;
+}
+
+#magicText p{
+	display: inline-block;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+	margin-top: 0px;
+	text-align: center;
+}
+
+/*Animation code for vertical oscillation*/
+@keyframes oscillate{
+	0%{top: 0px;}
+	100%{top: 120px;}
+}
+
+#mark{
+	animation-name: oscillate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+#s{
+	left:25%;
+	animation-name: oscillate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;	
+	animation-direction: alternate-reverse;
+}
+
+#graham{
+	left: 34%;
+	animation-name: oscillate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;	
+	animation-direction: alternate;
+}
+
+#dotcom{
+	left: 66%;
+	animation-name: oscillate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;	
+	animation-direction: reverse;
+	animation-direction: alternate-reverse;
 }
 
 /* * {
