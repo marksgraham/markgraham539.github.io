@@ -44,6 +44,10 @@ a:hover {
 	text-decoration: underline
 }
 
+#timeButton2{
+	margin-top: 10%;
+}
+
 #magicText{
 	height: 200px;
 	/*background-color: yellow;*/
