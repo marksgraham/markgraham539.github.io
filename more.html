@@ -7,14 +7,13 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 		<title>Mark Graham</title>
-	 	<h><!-- I don't think this little <h> is doing anything --> 
 	</head>
 	<body>
 		<p id="title"> Mark Graham </p>
-		<a href="index.html"> <p id ="button"> Home</p></a><!--IDs should be unique...-->
-		<a href="about.html"><p id ="button"> About</p> </a><!--...To give the same one to multiple elements, use class="button" instead-->
-		<a href="more.html"><p id ="button-current"> More</p> </a><!--You don't need the <p> tags here. Just do <a href="" id/class="">About</a> -->
-		<div id="header"></div>
+		<a href="index.html" class="button">Home</a>
+		<a href="about.html" class="button">About</a>
+		<a href="more.html" class="button-current">More</a>
+		<div id="horizontalLine"></div>
 		<p> This page contains some javascript: </p>
 
 		<button type="button" id="timeButton">Click me to display Date and Time.</button><!-- Gave this an id -->

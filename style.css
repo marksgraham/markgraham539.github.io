@@ -21,15 +21,15 @@ body {
 	margin-right: 2%
 }
 
-#button {
+.button {
 	display: inline;
 	margin:5px;
 }
 
-#button-current {
+.button-current {
 	display: inline;
 	margin:5px;
-	color:#046390
+	color:#046390 !important
 }
 
 a {
